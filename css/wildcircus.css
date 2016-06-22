@@ -1,0 +1,259 @@
+/************************************************************************************
+HEADER + FOOTER
+*************************************************************************************/
+header {
+    
+    color:white;
+    text-align:center;
+    padding:5px;
+    font-family: 'Fruktur', cursive;
+    font-size: 72px;
+}
+
+footer {
+    background-color:#212F3C;
+    background-image:url("../pictures/7a3ffd9a.png");
+    color:white;
+    clear:both;
+    text-align:center;
+    padding: 5px 10px; 
+    font-size: 0.6rem;
+    margin-bottom: 3px;
+}
+
+#foot_img
+{
+vertical-align: middle;
+max-height: 15px;
+padding-right: 10px;
+}
+
+/************************************************************************************
+MENU
+*************************************************************************************/
+li+li { border-left: 1px solid #9fb3c6 ; 
+	border-right: 1px solid #9fb3c6 }
+
+nav { 
+   margin: 0; 
+   padding: .3em 0 .3em 0; 
+   background-image:url("../pictures/7a3ffd9a.png"); 
+   width: 100%; 
+   text-align: center; 
+   font-family: 'Raleway', sans-serif;
+} 
+
+nav ul { 
+   list-style: none; 
+   margin: 0; 
+   padding: 0; 
+} 
+
+nav ul li { 
+   margin: 0; 
+   padding: 0; 
+   line-height: 50px;   
+   margin: 10 10px;
+   display:inline-block;
+   background-image:url("../pictures/23a600b5.png"); 
+   border-radius : 10px 10px / 5px 5px;
+} 
+
+nav ul a:link{ 
+   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: 1.2rem; 
+   color: #AEB6BF; 
+   background-image:url("../pictures/23a600b5.png"); 
+} 
+
+nav ul a:visited{ 
+   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; 
+   color: #FBFBFB; 
+   background: #271101;
+} 
+
+nav ul a:active{ 
+   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: 1.2rem; 
+   color: #FBFBFB; 
+   background: #271101;
+} 
+
+nav ul a:hover{ 
+   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: 1.2rem; 
+   color: #FAD7A0; 
+   background-color: #271101; 
+}
+
+/************************************************************************************
+STRUCTURE PAGE
+*************************************************************************************/
+
+body { 
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #222;
+  padding:0px; 
+  background-image:url("../pictures/a3c3b4e8.png");
+}
+
+#page_container {
+	padding: 0px;
+	width: 1090px;
+	margin: 0px auto;
+
+}
+
+#content1 {
+	width: 750px;
+	padding: 15px 9px 15px 9px;
+	background-color: rgba(255, 0, 0, 0.6); 
+  float: left;  
+  min-height: 200px;
+}
+#content2 {
+  width: 340px;
+  padding: 15px 9px 15px 9px;
+ 
+  float: right;  
+  min-height: 200px;
+}
+
+#content_colum1 {
+	width: 360px;
+	float: left;
+	padding: 8px 15px;
+}
+
+#content_colum2 {
+	width: 360px;
+	float: left;
+	padding: 8px 15px;		
+	border-right: dotted 1px  #707B7C;
+	border-left: dotted 1px  #707B7C;
+}
+
+#content_colum3 {
+	width: 360px;
+	padding: 8px 15px;
+	float: left;
+}
+
+ #content_colum1, #content_colum2, #content_colum3 {
+	margin-bottom: 0px;	   
+}
+
+#conteneur_columns{
+  width: 1090px;
+  margin-left: auto;
+  margin-right: auto;  
+  background-color: rgba(247, 244, 244, 0.8);
+}
+
+#bas { clear:both; }/* Source : https://openclassrooms.com/courses/comment-creer-des-colonnes-de-hauteurs-egales */
+
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  /* color: #E6E6E6; */
+  color :#CF1620;
+  font-weight: 800;
+  font-family: 'Changa', sans-serif;
+}
+
+h2#h2_1 {
+  color :#CF1620;
+  font-size: 2rem;
+}
+h2#h2_2 {
+  
+   background-color: rgba(255, 255, 255, 0.8); 
+}
+b {
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: rgba(247, 244, 244, 0.8); 
+  line-height:20px;
+}
+
+#italique {
+  font-style: italic;
+}
+
+#texte_alignement {
+  text-align: justify;
+}
+
+
+
+
+
+
+
+
+#footend2 {
+display: block;
+max-height: 20px;
+width: 1090px;
+margin-bottom: 5px;
+padding-top: 5px;
+padding-bottom: 5px;
+text-align: center;
+background-color: rgba(255, 0, 0, 0.6);
+}
+#footend {
+display: block;
+width: 1090px;
+margin-bottom: 5px;
+padding-top: 5px;
+padding-bottom: 5px;
+text-align: center;
+background-color: rgba(255, 0, 0, 0.6);
+float: left;
+}
+#foot1
+{
+  vertical-align: middle;
+}
+
+.align_image img, .align_image #footer_text_align {
+vertical-align: middle;
+display: inline-block; 
+color: rgba(247, 244, 244, 1); 
+font-size: 1.1rem;
+padding-left: 15px;
+}
+
+.align_image_rs img, .align_image_rs #footer_text_align {
+ 
+  display: inline-block; 
+  max-height: 20px;
+  color: rgba(247, 244, 244, 1); 
+font-size: 1.1rem;
+padding-left: 25px;
+}
+
+
+
+#rs2 {
+float: left;
+padding-left: 10px;
+text-align: center;
+min-height: 25px;
+max-height: 35px;
+background-color: rgba(247, 244, 244, 0.6); 
+padding: 3px 5px 0px 5px;
+}
