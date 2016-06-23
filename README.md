@@ -9,4 +9,4 @@ Jongler avec HTML / CSS / JQuery / Design / Mise en page / rédactionnel (en ang
 
 
 
-* Aucun animal n'a été blessé ou exploité durant le tournage.
+*Aucun animal n'a été blessé ou exploité durant le tournage.
